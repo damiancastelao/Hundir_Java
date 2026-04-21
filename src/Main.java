@@ -8,7 +8,5 @@ public class Main {
 
         Juego miPartida = new Juego();
 
-        miPartida.inicializar_naves();
-
     }
 }
