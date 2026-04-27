@@ -16,6 +16,12 @@ public class Juego {
      * posiciones predefinidas
      */
     public void inicializar_naves(){
-        System.out.println("Inicializando naves");
+        // System.out.println("Inicializando naves");
+        // crear objeto Tablero
+        Tablero miTablero = new Tablero();
+        System.out.println(miTablero.casillero[1][1]);
+
+        Tablero otroTablero = new Tablero();
+
     }
 }
