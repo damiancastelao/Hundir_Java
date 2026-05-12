@@ -7,8 +7,11 @@ public class Tablero {
 
     /**
      * Constructor
+     *
+     * @param param1 nombre del tablero
+     * @param param2 dimension (el tablero es <strong>cuadrado</strong>)
      */
-    public Tablero(){
+    public Tablero(String param1, int param2){
         casillero = new char[][]{
                 {'~', '~', '~', '~', '~', '~', '~', '~', '~', '~',},
                 {'~', '~', '~', '~', '~', '~', '~', '~', '~', '~',},

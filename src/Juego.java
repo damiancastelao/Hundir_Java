@@ -1,5 +1,5 @@
 /**
- * Clase que maneja eljuego principal
+ * Clase que maneja el juego principal
  */
 public class Juego {
 
@@ -18,7 +18,7 @@ public class Juego {
     public void inicializar_naves(){
         // System.out.println("Inicializando naves");
         // crear objeto Tablero
-        Tablero miTablero = new Tablero();
+        Tablero miTablero = new Tablero("principal",5);
         System.out.println(miTablero.casillero[1][1]);
 
         Tablero otroTablero = new Tablero();
